@@ -9,6 +9,7 @@ class Program
     {
 
         Bird[] birds = [new Sparrow(), new Penguin()];
+        Console.WriteLine("LSP Example");
         foreach (var bird in birds)
         {
             bird.Eat();
@@ -21,16 +22,18 @@ class Program
                 Console.WriteLine($"{bird.GetType().Name} can't fly'");
             }
         }
+        Console.WriteLine(" ");
         const string developerName = "Feroz";
         //create reference variables
 
         //create object
         var product1 = new Product();
-        Product.TotalNoProducts++;
+        Product.SetTotalNumberOfProducts(Product.GetTotalNumberOfProducts()+1);
         var product2 = new Product();
-        Product.TotalNoProducts++;
+        Product.SetTotalNumberOfProducts(Product.GetTotalNumberOfProducts()+1);
         var product3 = new Product();
-        Product.TotalNoProducts++;
+        Product.SetTotalNumberOfProducts(Product.GetTotalNumberOfProducts()+1);
+
         
         //initialize fields
         product1.SetProductId(1001);
@@ -49,11 +52,25 @@ class Program
         product3.SetCost(100000); 
         product3.SetQuantity(4564) ;
         
-        //call method
+        //call method with named arguments
+        var q = 7.4;
+        product1.Calculate(percentage: q);
         
-        product1.CalculateTax();
-        product2.CalculateTax();
-        product3.CalculateTax();
+        //ref 
+        var p = 7.5;
+        product2.CalculateTax(ref p);
+        Console.WriteLine("ref P is "+p);
+        
+        //out variable declaration
+        product2.Calculate(out double t);
+        Console.WriteLine("out is "+t);
+        // in parameter modifier
+        double x = 4.4;
+        product3.CalculateWithIn(in x);
+        //method overloading
+        product3.CalculateTax(10000,3.4);
+        
+        
         
         
         
@@ -82,9 +99,9 @@ class Program
         Console.WriteLine("tax:"+product3.GetTax());
         Console.WriteLine("Date of Purchase:"+product3.GetDateOfPurchase());
 
-        var totalQuantity = product1.GetQuantity() + product2.GetQuantity() + product3.GetQuantity();
+        var totalQuantity = Product.GetTotalQuantity(product1, product2, product3);
         Console.WriteLine("Total Quantity: " + totalQuantity);
-        Console.WriteLine("TotalNumberOfProduct:"+Product.TotalNoProducts);
+        Console.WriteLine("TotalNumberOfProduct:"+Product.GetTotalNumberOfProducts());
         Console.WriteLine("Category Of Product:"+Product.CategoryName);
 
 
