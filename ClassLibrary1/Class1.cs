@@ -2,8 +2,8 @@
 
 public class Product
 {
-    public int ProductId;
-    public string ProductName;
+    private int ProductId;
+    private string ProductName;
     public double Cost;
     public double Tax;
     public static int TotalNoProducts;

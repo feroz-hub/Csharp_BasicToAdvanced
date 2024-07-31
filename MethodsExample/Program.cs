@@ -23,14 +23,13 @@ class Program
         }
         const string developerName = "Feroz";
         //create reference variables
-        Product product1, product2, product3;
-        
+
         //create object
-        product1 = new Product();
+        var product1 = new Product();
         Product.TotalNoProducts++;
-        product2 = new Product();
+        var product2 = new Product();
         Product.TotalNoProducts++;
-        product3 = new Product();
+        var product3 = new Product();
         Product.TotalNoProducts++;
         
         //initialize fields
@@ -83,7 +82,7 @@ class Program
         Console.WriteLine("tax:"+product3.GetTax());
         Console.WriteLine("Date of Purchase:"+product3.GetDateOfPurchase());
 
-        int totalQuantity = product1.GetQuantity() + product2.GetQuantity() + product3.GetQuantity();
+        var totalQuantity = product1.GetQuantity() + product2.GetQuantity() + product3.GetQuantity();
         Console.WriteLine("Total Quantity: " + totalQuantity);
         Console.WriteLine("TotalNumberOfProduct:"+Product.TotalNoProducts);
         Console.WriteLine("Category Of Product:"+Product.CategoryName);
