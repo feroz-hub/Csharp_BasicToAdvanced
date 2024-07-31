@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{ABB0BA8F-3F9E-4B72-9FE6-75E9C2BF4702}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterModifier_ref_in_out", "ParameterModifier_ref_in_out\ParameterModifier_ref_in_out.csproj", "{ABB0BA8F-3F9E-4B72-9FE6-75E9C2BF4702}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsExample", "MethodsExample\MethodsExample.csproj", "{3CDAC81C-EB9E-43ED-86F6-BAF8CF74D3C6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefReturnExample", "RefReturnExample\RefReturnExample.csproj", "{FD662E68-6304-40A0-A996-15575CC29394}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Param_And_LocalFunction", "Param_And_LocalFunction\Param_And_LocalFunction.csproj", "{9CBB620A-2489-46C9-8F28-F96AAC2118D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionExample", "RecursionExample\RecursionExample.csproj", "{16D98030-7928-479B-9EF9-36601E0C1D38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +38,9 @@ Global
 		{9CBB620A-2489-46C9-8F28-F96AAC2118D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CBB620A-2489-46C9-8F28-F96AAC2118D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CBB620A-2489-46C9-8F28-F96AAC2118D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16D98030-7928-479B-9EF9-36601E0C1D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D98030-7928-479B-9EF9-36601E0C1D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D98030-7928-479B-9EF9-36601E0C1D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D98030-7928-479B-9EF9-36601E0C1D38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

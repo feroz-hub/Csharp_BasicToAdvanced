@@ -1,4 +1,4 @@
-namespace ClassLibrary1;
+namespace ParameterModifier_ref_in_out;
 
 public class Bird
 {

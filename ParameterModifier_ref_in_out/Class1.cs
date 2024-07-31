@@ -1,4 +1,4 @@
-﻿namespace ClassLibrary1;
+﻿namespace ParameterModifier_ref_in_out;
 
 public class Product
 {
@@ -46,7 +46,7 @@ public class Product
         _tax = t;
     }
     
-    //method with out parameter modifier
+    //method with "out" parameter modifier
     public void Calculate(out double percentage)
     {
         //create local var
