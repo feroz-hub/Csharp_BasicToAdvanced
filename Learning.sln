@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionExample", "Recursi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConversion", "TypeConversion\TypeConversion.csproj", "{FDAEC0F9-0261-46C1-B8E7-3FD03504DEAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorExample", "ConstructorExample\ConstructorExample.csproj", "{7FDA0EDA-42B1-4DEC-9EBA-F5901D21C5B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorExampleClassLib", "ConstructorExampleClassLib\ConstructorExampleClassLib.csproj", "{3462075D-A571-4F0B-AB8B-695BB0A04186}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +52,13 @@ Global
 		{FDAEC0F9-0261-46C1-B8E7-3FD03504DEAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDAEC0F9-0261-46C1-B8E7-3FD03504DEAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDAEC0F9-0261-46C1-B8E7-3FD03504DEAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FDA0EDA-42B1-4DEC-9EBA-F5901D21C5B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FDA0EDA-42B1-4DEC-9EBA-F5901D21C5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FDA0EDA-42B1-4DEC-9EBA-F5901D21C5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FDA0EDA-42B1-4DEC-9EBA-F5901D21C5B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3462075D-A571-4F0B-AB8B-695BB0A04186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3462075D-A571-4F0B-AB8B-695BB0A04186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3462075D-A571-4F0B-AB8B-695BB0A04186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3462075D-A571-4F0B-AB8B-695BB0A04186}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

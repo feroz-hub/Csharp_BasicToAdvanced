@@ -56,6 +56,17 @@
         string str3 = "123";
         int num4 = Convert.ToInt32(str3);
         Console.WriteLine("Convert string to int:"+num4);
-        
+        float num5 = Convert.ToSingle(str3);
+        Console.WriteLine("Convert string to float:"+num5);
+        double num6 = Convert.ToDouble(str3);
+        Console.WriteLine("Convert string to double:"+num6);
+        int num8 = 1000;
+        string str4 = Convert.ToString(num8);
+        Console.WriteLine("Convert int to string:"+str4);
+        bool num7 = Convert.ToBoolean(num8);
+        Console.WriteLine("Convert int to bool:"+num7);
+        char ch = Convert.ToChar(num8);
+        Console.WriteLine("Convert int to char:"+ch);
+
     }
 }
