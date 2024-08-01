@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Param_And_LocalFunction", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionExample", "RecursionExample\RecursionExample.csproj", "{16D98030-7928-479B-9EF9-36601E0C1D38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConversion", "TypeConversion\TypeConversion.csproj", "{FDAEC0F9-0261-46C1-B8E7-3FD03504DEAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{16D98030-7928-479B-9EF9-36601E0C1D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16D98030-7928-479B-9EF9-36601E0C1D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16D98030-7928-479B-9EF9-36601E0C1D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDAEC0F9-0261-46C1-B8E7-3FD03504DEAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDAEC0F9-0261-46C1-B8E7-3FD03504DEAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDAEC0F9-0261-46C1-B8E7-3FD03504DEAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDAEC0F9-0261-46C1-B8E7-3FD03504DEAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

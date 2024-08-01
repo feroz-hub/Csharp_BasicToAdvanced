@@ -16,7 +16,11 @@ public class Product
     {
         _dateOfPurchase = DateTime.Now.ToShortDateString();
     }
-    
+    public void Calculate(int a, int b, out int sum, out int product)
+    {
+        sum = a + b;
+        product = a * b;
+    }
     //method with default arguments
     public void Calculate( double percentage=3.4)
     {
@@ -63,7 +67,7 @@ public class Product
     }
 
      
-    //method with out parameter modifier
+    //method with "out" parameter modifier
     public void CalculateWithIn(in double percentage)
     {
         //create local var

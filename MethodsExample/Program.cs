@@ -105,6 +105,9 @@ class Program
         Console.WriteLine("Category Of Product:"+Product.CategoryName);
 
 
+        int a = 3, b = 4;
+        product2.Calculate(a, b, out int sum, out int product);
+        Console.WriteLine($"Sum: {sum}, Product: {product}");
         Console.ReadKey();
     }
 }

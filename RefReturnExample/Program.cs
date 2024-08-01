@@ -9,6 +9,16 @@
     }
 }
 
+public class Warehouse
+{
+    private int[] itemQuantities = { 100, 200, 150 }; // Quantities of items in different bins
+
+    // Method to get a reference to the quantity of an item in a specific bin
+    public ref int GetItemQuantity(int binIndex)
+    {
+        return ref itemQuantities[binIndex];
+    }
+}
 
 
 class Student
@@ -43,6 +53,7 @@ class Program
         ref int g = ref student.DoWork();
         
         //update the value of 'ref return'
+        
         g = 5;
         // call PrintGrade after updating the value of 'ref return'
         student.PrintGrade();
@@ -60,7 +71,21 @@ class Program
         {
             Console.WriteLine(myToyBox.GetToy(i));
         }
+        var myWarehouse = new Warehouse();
+
+        // Get a reference to the quantity of the item in the second bin
+        ref var quantity = ref myWarehouse.GetItemQuantity(1);
+
+        // Update the quantity using the reference
+        quantity += 50; // New stock arrived, increase the quantity
+
+        // Print all item quantities to see the change
+        for (var i = 0; i < 3; i++)
+        {
+            Console.WriteLine($"Bin {i + 1}: {myWarehouse.GetItemQuantity(i)} items");
+        }
         Console.ReadKey();
+        
 
     }
     
