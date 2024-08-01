@@ -17,6 +17,6 @@ public abstract class Employee(int EmployeeId,string EmployeeName,string Locatio
     }
 
     // abstract method
-    public abstract double NetSalary(int salary, int tax);
+    public abstract string NetSalary(int salary, int tax);
 
 }

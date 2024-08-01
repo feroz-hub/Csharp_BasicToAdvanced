@@ -35,5 +35,13 @@ class Program
         Console.WriteLine($"Region: {salesman.Region}");
         Console.WriteLine($"Sales of the Month:{salesman.GetSalesOfCurrentMonth()}");
         Console.WriteLine();
+        
+        //Dynamic polymorphism
+        //Run Time Polymorphism
+        Employee employee = new Manager(200, "Feroz", "Chennai", "IT");
+        Console.WriteLine($"NetSalary:{employee.NetSalary(10000, 100)}");
+        Console.WriteLine();
+        employee = new Salesman(202, "John", "Kolkata", "East");
+        Console.WriteLine($"NetSalary:{employee.NetSalary(10000, 100)}");
     }
 }

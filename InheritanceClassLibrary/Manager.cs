@@ -28,8 +28,8 @@ public class Manager(int EmployeeId, string EmployeeName, string Location ,strin
         return "$500";
     }
 
-    public override double NetSalary(int salary, int tax)
+    public override string NetSalary(int salary, int tax)
     {
-        return salary - tax;
+        return "The Manager salary"+(salary-tax);
     }
 }
