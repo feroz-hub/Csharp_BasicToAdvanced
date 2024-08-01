@@ -19,6 +19,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorExample", "Const
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorExampleClassLib", "ConstructorExampleClassLib\ConstructorExampleClassLib.csproj", "{3462075D-A571-4F0B-AB8B-695BB0A04186}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Indexer", "Indexer", "{5ACDA57D-E011-43F5-883A-E38BDE79F739}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Constructor", "Constructor", "{219E8183-15FD-4131-99FF-478ED0256C73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexerExample", "IndexerExample\IndexerExample.csproj", "{08D6FF88-AC86-468F-9BCE-E23C6B6DC523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexerClassLibrary", "IndexerClassLibrary\IndexerClassLibrary.csproj", "{8ED37471-B5C7-4EA2-ACDA-EE78B88C52CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +68,19 @@ Global
 		{3462075D-A571-4F0B-AB8B-695BB0A04186}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3462075D-A571-4F0B-AB8B-695BB0A04186}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3462075D-A571-4F0B-AB8B-695BB0A04186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D6FF88-AC86-468F-9BCE-E23C6B6DC523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D6FF88-AC86-468F-9BCE-E23C6B6DC523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D6FF88-AC86-468F-9BCE-E23C6B6DC523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D6FF88-AC86-468F-9BCE-E23C6B6DC523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ED37471-B5C7-4EA2-ACDA-EE78B88C52CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED37471-B5C7-4EA2-ACDA-EE78B88C52CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED37471-B5C7-4EA2-ACDA-EE78B88C52CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED37471-B5C7-4EA2-ACDA-EE78B88C52CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FDA0EDA-42B1-4DEC-9EBA-F5901D21C5B5} = {219E8183-15FD-4131-99FF-478ED0256C73}
+		{3462075D-A571-4F0B-AB8B-695BB0A04186} = {219E8183-15FD-4131-99FF-478ED0256C73}
+		{08D6FF88-AC86-468F-9BCE-E23C6B6DC523} = {5ACDA57D-E011-43F5-883A-E38BDE79F739}
+		{8ED37471-B5C7-4EA2-ACDA-EE78B88C52CF} = {5ACDA57D-E011-43F5-883A-E38BDE79F739}
 	EndGlobalSection
 EndGlobal
