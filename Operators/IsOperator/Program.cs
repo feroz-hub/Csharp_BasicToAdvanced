@@ -1,4 +1,4 @@
-﻿using IsOperator;
+﻿using OperatorsSharedKernel;
 
 class Program
 {
