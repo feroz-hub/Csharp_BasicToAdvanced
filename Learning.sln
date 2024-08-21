@@ -3,49 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterModifier_ref_in_out", "ParameterModifier_ref_in_out\ParameterModifier_ref_in_out.csproj", "{ABB0BA8F-3F9E-4B72-9FE6-75E9C2BF4702}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParameterModifier_ref_in_out", "Ref_In_Out_RefReturn\ParameterModifier_ref_in_out\ParameterModifier_ref_in_out.csproj", "{ABB0BA8F-3F9E-4B72-9FE6-75E9C2BF4702}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsExample", "MethodsExample\MethodsExample.csproj", "{3CDAC81C-EB9E-43ED-86F6-BAF8CF74D3C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodsExample", "Ref_In_Out_RefReturn\MethodsExample\MethodsExample.csproj", "{3CDAC81C-EB9E-43ED-86F6-BAF8CF74D3C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefReturnExample", "RefReturnExample\RefReturnExample.csproj", "{FD662E68-6304-40A0-A996-15575CC29394}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefReturnExample", "Ref_In_Out_RefReturn\RefReturnExample\RefReturnExample.csproj", "{FD662E68-6304-40A0-A996-15575CC29394}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Param_And_LocalFunction", "Param_And_LocalFunction\Param_And_LocalFunction.csproj", "{9CBB620A-2489-46C9-8F28-F96AAC2118D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Param_And_LocalFunction", "Param_And_LocalFunction\Param_And_LocalFunction.csproj", "{9CBB620A-2489-46C9-8F28-F96AAC2118D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionExample", "RecursionExample\RecursionExample.csproj", "{16D98030-7928-479B-9EF9-36601E0C1D38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursionExample", "RecursionExample\RecursionExample.csproj", "{16D98030-7928-479B-9EF9-36601E0C1D38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConversion", "TypeConversion\TypeConversion.csproj", "{FDAEC0F9-0261-46C1-B8E7-3FD03504DEAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeConversion", "TypeConversion\TypeConversion.csproj", "{FDAEC0F9-0261-46C1-B8E7-3FD03504DEAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorExample", "ConstructorExample\ConstructorExample.csproj", "{7FDA0EDA-42B1-4DEC-9EBA-F5901D21C5B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorExample", "Constructor\ConstructorExample\ConstructorExample.csproj", "{7FDA0EDA-42B1-4DEC-9EBA-F5901D21C5B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorExampleClassLib", "ConstructorExampleClassLib\ConstructorExampleClassLib.csproj", "{3462075D-A571-4F0B-AB8B-695BB0A04186}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorExampleClassLib", "Constructor\ConstructorExampleClassLib\ConstructorExampleClassLib.csproj", "{3462075D-A571-4F0B-AB8B-695BB0A04186}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Indexer", "Indexer", "{5ACDA57D-E011-43F5-883A-E38BDE79F739}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Constructor", "Constructor", "{219E8183-15FD-4131-99FF-478ED0256C73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexerExample", "IndexerExample\IndexerExample.csproj", "{08D6FF88-AC86-468F-9BCE-E23C6B6DC523}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndexerExample", "Indexer\IndexerExample\IndexerExample.csproj", "{08D6FF88-AC86-468F-9BCE-E23C6B6DC523}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexerClassLibrary", "IndexerClassLibrary\IndexerClassLibrary.csproj", "{8ED37471-B5C7-4EA2-ACDA-EE78B88C52CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndexerClassLibrary", "Indexer\IndexerClassLibrary\IndexerClassLibrary.csproj", "{8ED37471-B5C7-4EA2-ACDA-EE78B88C52CF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ParameterModifier", "ParameterModifier", "{58AC6468-68CB-439E-8B35-FED4975D2220}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inheritance", "Inheritance", "{DF94AEF8-4E5E-44F9-9ACF-91F8CAAACCE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceExample", "InheritanceExample\InheritanceExample.csproj", "{16ABD237-122F-41D1-B006-9301125453D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceExample", "Inheritance\InheritanceExample\InheritanceExample.csproj", "{16ABD237-122F-41D1-B006-9301125453D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceClassLibrary", "InheritanceClassLibrary\InheritanceClassLibrary.csproj", "{246CB828-A404-4EF2-A1AF-A4E94558AC19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceClassLibrary", "Inheritance\InheritanceClassLibrary\InheritanceClassLibrary.csproj", "{246CB828-A404-4EF2-A1AF-A4E94558AC19}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{C550753D-3BCB-49E0-BA43-9602B42CC628}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceExample", "InterfaceExample\InterfaceExample.csproj", "{AF022C51-B5B6-4AAD-BE32-24BCD7B45A17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceExample", "Interface\InterfaceExample\InterfaceExample.csproj", "{AF022C51-B5B6-4AAD-BE32-24BCD7B45A17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceClassLibrary", "InterfaceClassLibrary\InterfaceClassLibrary.csproj", "{BB7D3166-DFEF-492A-8EE0-9D9F52811443}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceClassLibrary", "Interface\InterfaceClassLibrary\InterfaceClassLibrary.csproj", "{BB7D3166-DFEF-492A-8EE0-9D9F52811443}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PartialClass", "PartialClass", "{D79252B8-985F-4837-A0AB-C3C11D38DFC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClassExample", "PartialClassExample\PartialClassExample.csproj", "{02B8AEC3-8E4E-4B21-ADCF-5E39A9AC6426}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartialClassExample", "PartialClass\PartialClassExample\PartialClassExample.csproj", "{02B8AEC3-8E4E-4B21-ADCF-5E39A9AC6426}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClassClassLibrary", "PartialClassClassLibrary\PartialClassClassLibrary.csproj", "{CA2AEFF2-9244-4FAD-BBF4-52313517BFBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartialClassClassLibrary", "PartialClass\PartialClassClassLibrary\PartialClassClassLibrary.csproj", "{CA2AEFF2-9244-4FAD-BBF4-52313517BFBE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion", "Recursion", "{D270BACA-B64B-4ACD-A17B-59F345C8AEA2}"
 EndProject
@@ -57,29 +57,30 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TypeConversion", "TypeConve
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StaticClass", "StaticClass", "{F6A5662C-7FE4-4BD5-8916-BD98A43F1446}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticClassExample", "StaticClassExample\StaticClassExample.csproj", "{41EA60AD-05D4-46E2-80B8-876D585560FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticClassExample", "StaticClass\StaticClassExample\StaticClassExample.csproj", "{41EA60AD-05D4-46E2-80B8-876D585560FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticClassLibrary", "StaticClassLibrary\StaticClassLibrary.csproj", "{32A81EBE-6F2E-43C2-B8A5-D257F01DAAD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticClassLibrary", "StaticClass\StaticClassLibrary\StaticClassLibrary.csproj", "{32A81EBE-6F2E-43C2-B8A5-D257F01DAAD1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enumeration", "Enumeration", "{CE14F33F-80B2-4B50-8612-1EAFE5EA5C0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerationExample", "EnumerationExample\EnumerationExample.csproj", "{BEBB399B-1FFF-4959-B6AB-2AE537369514}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumerationExample", "Enumeration\EnumerationExample\EnumerationExample.csproj", "{BEBB399B-1FFF-4959-B6AB-2AE537369514}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerationClassLibrary", "EnumerationClassLibrary\EnumerationClassLibrary.csproj", "{3D408B68-6BBF-4587-98B1-6DD8D4D986D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumerationClassLibrary", "Enumeration\EnumerationClassLibrary\EnumerationClassLibrary.csproj", "{3D408B68-6BBF-4587-98B1-6DD8D4D986D5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structure", "Structure", "{6B8C36F6-9552-43C1-8C1F-CF31B64E8E5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureExample", "StructureExample\StructureExample.csproj", "{64ADD841-601A-4D83-9755-B73DC32B16E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructureExample", "Structure\StructureExample\StructureExample.csproj", "{64ADD841-601A-4D83-9755-B73DC32B16E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureClassLibrary", "StructureClassLibrary\StructureClassLibrary.csproj", "{A9F91FD1-10EB-42FB-A92A-9F6B7DC40FB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructureClassLibrary", "Structure\StructureClassLibrary\StructureClassLibrary.csproj", "{A9F91FD1-10EB-42FB-A92A-9F6B7DC40FB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Operators", "Operators", "{C9F818E3-4A6C-4C14-BE84-11C5776D2B9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsOperator", "Operators\IsOperator\IsOperator.csproj", "{1A2BAC75-576B-4DBD-A903-AA0C861E799F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{ABB0BA8F-3F9E-4B72-9FE6-75E9C2BF4702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -170,29 +171,37 @@ Global
 		{A9F91FD1-10EB-42FB-A92A-9F6B7DC40FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9F91FD1-10EB-42FB-A92A-9F6B7DC40FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9F91FD1-10EB-42FB-A92A-9F6B7DC40FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A2BAC75-576B-4DBD-A903-AA0C861E799F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2BAC75-576B-4DBD-A903-AA0C861E799F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2BAC75-576B-4DBD-A903-AA0C861E799F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2BAC75-576B-4DBD-A903-AA0C861E799F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{ABB0BA8F-3F9E-4B72-9FE6-75E9C2BF4702} = {58AC6468-68CB-439E-8B35-FED4975D2220}
+		{3CDAC81C-EB9E-43ED-86F6-BAF8CF74D3C6} = {58AC6468-68CB-439E-8B35-FED4975D2220}
+		{FD662E68-6304-40A0-A996-15575CC29394} = {A4E2C47F-EEE4-4B09-835A-2209F085119E}
+		{9CBB620A-2489-46C9-8F28-F96AAC2118D7} = {CDAAD475-5073-4B01-8B68-01180D42D1DD}
+		{16D98030-7928-479B-9EF9-36601E0C1D38} = {D270BACA-B64B-4ACD-A17B-59F345C8AEA2}
+		{FDAEC0F9-0261-46C1-B8E7-3FD03504DEAA} = {72358EA0-1DE2-4F31-A452-C90DBA83ADE8}
 		{7FDA0EDA-42B1-4DEC-9EBA-F5901D21C5B5} = {219E8183-15FD-4131-99FF-478ED0256C73}
 		{3462075D-A571-4F0B-AB8B-695BB0A04186} = {219E8183-15FD-4131-99FF-478ED0256C73}
 		{08D6FF88-AC86-468F-9BCE-E23C6B6DC523} = {5ACDA57D-E011-43F5-883A-E38BDE79F739}
 		{8ED37471-B5C7-4EA2-ACDA-EE78B88C52CF} = {5ACDA57D-E011-43F5-883A-E38BDE79F739}
-		{3CDAC81C-EB9E-43ED-86F6-BAF8CF74D3C6} = {58AC6468-68CB-439E-8B35-FED4975D2220}
-		{ABB0BA8F-3F9E-4B72-9FE6-75E9C2BF4702} = {58AC6468-68CB-439E-8B35-FED4975D2220}
 		{16ABD237-122F-41D1-B006-9301125453D6} = {DF94AEF8-4E5E-44F9-9ACF-91F8CAAACCE9}
 		{246CB828-A404-4EF2-A1AF-A4E94558AC19} = {DF94AEF8-4E5E-44F9-9ACF-91F8CAAACCE9}
 		{AF022C51-B5B6-4AAD-BE32-24BCD7B45A17} = {C550753D-3BCB-49E0-BA43-9602B42CC628}
 		{BB7D3166-DFEF-492A-8EE0-9D9F52811443} = {C550753D-3BCB-49E0-BA43-9602B42CC628}
 		{02B8AEC3-8E4E-4B21-ADCF-5E39A9AC6426} = {D79252B8-985F-4837-A0AB-C3C11D38DFC1}
 		{CA2AEFF2-9244-4FAD-BBF4-52313517BFBE} = {D79252B8-985F-4837-A0AB-C3C11D38DFC1}
-		{16D98030-7928-479B-9EF9-36601E0C1D38} = {D270BACA-B64B-4ACD-A17B-59F345C8AEA2}
-		{FD662E68-6304-40A0-A996-15575CC29394} = {A4E2C47F-EEE4-4B09-835A-2209F085119E}
-		{9CBB620A-2489-46C9-8F28-F96AAC2118D7} = {CDAAD475-5073-4B01-8B68-01180D42D1DD}
-		{FDAEC0F9-0261-46C1-B8E7-3FD03504DEAA} = {72358EA0-1DE2-4F31-A452-C90DBA83ADE8}
 		{41EA60AD-05D4-46E2-80B8-876D585560FE} = {F6A5662C-7FE4-4BD5-8916-BD98A43F1446}
 		{32A81EBE-6F2E-43C2-B8A5-D257F01DAAD1} = {F6A5662C-7FE4-4BD5-8916-BD98A43F1446}
 		{BEBB399B-1FFF-4959-B6AB-2AE537369514} = {CE14F33F-80B2-4B50-8612-1EAFE5EA5C0F}
 		{3D408B68-6BBF-4587-98B1-6DD8D4D986D5} = {CE14F33F-80B2-4B50-8612-1EAFE5EA5C0F}
 		{64ADD841-601A-4D83-9755-B73DC32B16E2} = {6B8C36F6-9552-43C1-8C1F-CF31B64E8E5E}
 		{A9F91FD1-10EB-42FB-A92A-9F6B7DC40FB4} = {6B8C36F6-9552-43C1-8C1F-CF31B64E8E5E}
+		{1A2BAC75-576B-4DBD-A903-AA0C861E799F} = {C9F818E3-4A6C-4C14-BE84-11C5776D2B9E}
 	EndGlobalSection
 EndGlobal

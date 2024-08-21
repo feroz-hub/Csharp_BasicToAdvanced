@@ -6,7 +6,7 @@ public class Product
     private string _productName;
     private double _cost;
     private double _tax;
-    public static int TotalNoProducts;
+    private static int _totalNoProducts;
     public const string CategoryName = "Electronic";
     private readonly string _dateOfPurchase;
     private int _quantity;
@@ -65,8 +65,7 @@ public class Product
 
         _tax = t;
     }
-
-     
+    
     //method with "out" parameter modifier
     public void CalculateWithIn(in double percentage)
     {
@@ -163,11 +162,11 @@ public class Product
     //static method
     public static void SetTotalNumberOfProducts(int value)
     {
-        TotalNoProducts = value;
+        _totalNoProducts = value;
     }
     public static int GetTotalNumberOfProducts()
     {
-        return TotalNoProducts;
+        return _totalNoProducts;
     }
     
     //static method
